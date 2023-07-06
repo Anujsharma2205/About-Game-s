@@ -1,0 +1,415 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 130vh;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("image/bagroundimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.navbar .banner
+{
+    height: 100vh;
+    /* background: linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .7)), url("image/bagroundimage.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nav
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+.nav .logo img
+{
+    width: 60px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.nav .navlinks
+{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.nav .navlinks li 
+{
+    list-style: none;
+    margin-right: 24px;
+}
+.nav .navlinks li a
+{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+.nav .navlinks li a:hover
+{
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #999;
+    color: black;
+}
+.play
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play h1
+{
+    color: white;
+    /* background-color: aqua; */
+    margin-top: 300px;
+    margin-left: 50px;
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+}
+.play h3
+{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    text-align: end;
+    
+    
+
+}
+.banner2 
+{
+    width: 600px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.banner2 img
+{
+    width: 500px;
+    height: 60vh;
+    /* background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)); */
+    align-items: center;
+    margin-top: 300px;
+    border-radius: 100px;
+}
+
+    /* <!-------------------------- section 2 ---------------------> */
+
+
+.games  
+{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(49, 0, 2); */
+    background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url("image/GTA IMG/GTA2.jpg");
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin-top: 137px;
+    
+
+}
+.games h1
+{
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    font-size: 40px;
+}
+.gta5
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.gta5 .about
+{
+    width: 40%;
+  
+}
+.gta5 .about h1
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 38px;
+    margin-top: 125px;
+
+}
+.gta5 .about p
+{
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    /* margin: 60px 30px; */
+    font-family: sans-serif;
+
+}
+
+.picture
+{
+    width: 50%;
+    display: flex;
+    /* background-color: aqua ; */
+    
+
+}
+.picture img
+{
+    width:450px;
+    height: 450px;
+    /* padding-top: 10px; */
+    margin-left: 30px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+    /* <!-------------------------- section 3 -------------------------> */
+
+
+.aboutgta5
+{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url("image/GTA IMG/gtabackground.jpg");
+    background-size: 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.visuals
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.graphics .ph1 
+{
+    /* background-color: aqua; */
+    width: 100%;
+}
+.graphics .ph1 img
+{
+    
+    height: 50vh;
+    width: 500px;
+    margin: 20vh 50px;
+
+}
+.visuals .info 
+{
+    width: 50%;
+    padding-top: 80px;
+    text-align: justify;
+}
+.visuals .info h1
+{
+    padding: 50px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.visuals .info p
+{
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+    /* <!-------------------------- section 4 -------------------------> */
+
+
+.moreabout
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url("image/GTA IMG/stunning\ graphics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moreabout div
+{
+    height: 20vh;
+}
+
+.faster
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 100PX;
+}
+.faster .reloading
+{
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    word-spacing: 5px;
+    text-align: justify;
+
+}
+.faster .reloading h1
+{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 30px;
+}
+.faster .reloading p
+{
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px;
+    word-spacing: 5px;
+    text-align: justify;
+
+}
+
+.faster .fasterimg img
+{
+    margin-right: 50px;
+    width: 500px;
+    height: 300px;
+    
+    
+}
+.visit
+{
+    text-align: center;
+    margin-top: 350px;
+    font-size: 20px;
+    display: block;
+}
+.visit a
+{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border: .5px solid white;
+    padding: 10px;
+    transition: 1.5s;
+}
+.visit a:hover
+{
+    background-color: rgb(122, 107, 107);
+    box-shadow: 0px 10px 15px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+
+}
+
+    /* <!-------------------------- section 5 -------------------------> */
+
+
+.footer
+{
+    height: 50vh;
+    width: 100%;
+    /* /* background-color: rgb(41, 34, 34); */
+    background: linear-gradient( rgba(0,0,0)80%, #999 50% );
+}
+.footer p
+{
+    color: black;
+    padding-top: 40px;
+    text-align: center;
+}
+.footer .last
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.footer .last h1
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 10px;
+}
+.footer .last p
+{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-align: justify;
+    font-size: 20px;
+    color: #968c8c;
+}
+.footer .last form input
+{
+    width: 250px;
+    display: block;
+    margin-left: 20px;
+    padding:10px 12px;
+    background-color: transparent;
+    margin-bottom: 8px;
+    border:1px solid #999 ;
+    border-radius: 15px;
+    box-shadow:-3px -2px 5px #999 inset;
+    color: wheat;
+}
+.footer .last form input[type="submit"]
+{
+    margin-left: 190px;
+    /* background-color: blueviolet; */
+    transition: 1s;
+    width: 80px;
+}
+.footer .last form input[type="submit"]:hover
+{
+    background-color: #968c8c;
+    color: black;
+    border: none;
+}
+.footer .last li
+{
+    list-style: none;
+    text-transform:capitalize ;
+    font-weight: 700;
+    line-height: 30px;
+    color: #968c8c;
+  
+
+}
+.footer .last li i
+{
+    font-size: 10px;
+    padding-left:5px;
+}
+.footer .last a
+{
+    text-decoration: none;
+}
+.footer .last a:hover
+{
+    transition: 5s;
+    text-decoration: underline;    
+}
+
